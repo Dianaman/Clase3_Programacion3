@@ -8,7 +8,15 @@
 	//echo $_GET["nombre"];
 	echo "<hr>";
 	$nombre = $_POST['nombre'];
+	$clave = $_POST['clave'];
 	echo $nombre;
+
+	if($nombre == "admin" && $clave == 1234){
+		include_once("bienvenido.html");
+	}
+	else {
+		include_once("nologgeado.html");
+	}
 
 	/*
 	Hay dos maneras de enviar y recibir datos en PHP

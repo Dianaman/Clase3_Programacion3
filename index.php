@@ -1,6 +1,7 @@
 <html>
 <head>
-	<title></title>
+	<title>Clase 3 - Programacion 3</title>
+	<link href="css/stylesheet.css" type="text/css">
 </head>
 <body>
 <form action="enviar.php" method="POST">
