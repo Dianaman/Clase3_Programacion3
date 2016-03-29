@@ -32,6 +32,7 @@
 	 *envia los datos por la url
 	 *no puede enviar mas de 2048 caracteres
 	 *sólo envia los cuadros de texto que poseen name
+	 *es el método por defecto
 	POST 
 	 *no muestra los datos por la url
 	 *no tiene límite de caracteres

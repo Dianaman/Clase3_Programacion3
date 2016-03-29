@@ -35,6 +35,19 @@
 		}
 		
 		echo "<br>El mayor es: ". $mayor;
+
+		/*
+			isset() ------> retorna true si es distinto a null y false si es null, detecta si una variable está seteada
+			$_POST y $_GET son variables superglobales, por lo tanto siempre son visibles
+			isset($_POST) siempre dará true
+			Por lo tanto, debería utilizarse con un elemento:
+			isset($_POST['nombre'])
+
+
+
+
+			Si el form no tiene action, se llama a si mismo
+		*/
 	?>
 </body>
 </html>
